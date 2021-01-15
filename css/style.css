@@ -1,0 +1,76 @@
+/*==================================================
+common css
+====================================================*/
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFFFFF;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*==================================================
+css for header
+====================================================*/
+header{
+    background-color: #FFFBF0;
+}
+/*==================================================
+css for nav
+====================================================*/
+nav li{
+    padding-left: 30px;
+}
+/*==================================================
+css for banner
+====================================================*/
+.banner_area{
+    padding-bottom: 100px;
+}
+.custom_h1{
+    font-size: 60px;
+}
+.text_highlighter{
+    color: #FABE4C;
+}
+.custom_btn{
+    background: #8EA926;
+    padding: 15px 35px;
+    border-radius: 8px;
+    color: blanchedalmond;
+}
+.custom_btn:hover{
+    background: #437416;
+    color: blanchedalmond;
+}
+/*==================================================
+css for woman & man jacket
+====================================================*/
+.woman_jacket,.man_jacket{
+    margin-top: 40px;
+}
+.woman_jacket img,.man_jacket img{
+    width: 350px;
+    height: 350px;
+    background: #F1F1F1;
+    object-fit: contain;
+    object-position: top;
+    border-radius: 20px; 
+}
+.custom_price h2{
+    color: #FBC662;
+}
+/*==================================================
+css for service area
+====================================================*/
+.service_area{
+    margin-top: 100px;
+    padding-top: 50px;
+}
+/*==================================================
+css for footer
+====================================================*/
+footer{
+    margin-bottom: 2px;
+    margin-top: 50px;
+}
